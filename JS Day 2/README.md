@@ -11,10 +11,10 @@ But for those of you who want to revise these concepts here are the notes and ex
 if (condition) {
  code block or statement
 }
+```
 
-
-// Let's write a program that allows vatsal to drive if he is 18 years old or more
-
+ Let's write a program that allows vatsal to drive if he is 18 years old or more
+```javascript
 const vatsal = 18;
 
 if(vatsal >= 18) {
@@ -23,7 +23,7 @@ if(vatsal >= 18) {
 else {
 console.log("I know you just got a new car buddy but you're still underaged");
 }
-
+```
 
 ## Here are the resources used in today's lesson
 Programizhttps://www.programiz.com/javascript/comparison-logical 
