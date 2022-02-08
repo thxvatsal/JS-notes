@@ -26,11 +26,12 @@ console.log("I know you just got a new car buddy but you're still underaged");
 ```
 
 ## Here are the resources used in today's lesson
-Programizhttps://www.programiz.com/javascript/comparison-logical 
-https://www.programiz.com/javascript/if-else
+[Programiz](https://www.programiz.com/javascript/comparison-logical)
+[Programiz](https://www.programiz.com/javascript/if-else)
 
 ## Some extra resources that i personally used when learning these concepts:
-https://www.youtube.com/watch?v=IsG4Xd6LlsM&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax&index=7
-https://www.youtube.com/watch?v=vaZpDYOuprA&list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL&index=8&t=748s
+[Youtube](https://www.youtube.com/watch?v=IsG4Xd6LlsM&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax&index=7)
 
-https://youtu.be/ULNJSTSJc7s
+[Youtube](https://www.youtube.com/watch?v=vaZpDYOuprA&list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL&index=8&t=748s)
+
+[Youtube](https://youtu.be/ULNJSTSJc7s)
