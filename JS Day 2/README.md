@@ -7,9 +7,9 @@ But for those of you who want to revise these concepts here are the notes and ex
 
 // The syntax of If else statements looks like this 
 
-
+```javascript
 if (condition) {
-    code block or statement
+ code block or statement
 }
 
 
@@ -21,19 +21,16 @@ if(vatsal >= 18) {
     console.log("You can drive vatsal");
 }
 else {
-    console.log("I know you just got a new car buddy but you're still underaged");
+console.log("I know you just got a new car buddy but you're still underaged");
 }
 
 
-
-
 ## Here are the resources used in today's lesson
-[Programiz](https://www.programiz.com/javascript/comparison-logical)
-[Programiz](https://www.programiz.com/javascript/if-else)
+Programizhttps://www.programiz.com/javascript/comparison-logical 
+https://www.programiz.com/javascript/if-else
 
 ## Some extra resources that i personally used when learning these concepts:
-[Youtube](https://www.youtube.com/watch?v=IsG4Xd6LlsM&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax&index=7)
+https://www.youtube.com/watch?v=IsG4Xd6LlsM&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax&index=7
+https://www.youtube.com/watch?v=vaZpDYOuprA&list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL&index=8&t=748s
 
-[Youtube](https://www.youtube.com/watch?v=vaZpDYOuprA&list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL&index=8&t=748s)
-
-[Youtube](https://youtu.be/ULNJSTSJc7s)
+https://youtu.be/ULNJSTSJc7s
