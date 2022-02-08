@@ -1,3 +1,5 @@
+# Hello, Amazing learners
+
 We went through the if else statements and logical operators today and it's best if logical operators are taught in examples which is being done by using
 if else statements in the files uploaded in the Day2 folder.
 
@@ -5,11 +7,11 @@ But for those of you who want to revise these concepts here are the notes and ex
 
 // The syntax of If else statements looks like this 
 
-/*
+
 if (condition) {
     code block or statement
 }
-*/
+
 
 // Let's write a program that allows vatsal to drive if he is 18 years old or more
 
@@ -25,12 +27,13 @@ else {
 
 
 
-Here are the resources used in today's lesson
-https://www.programiz.com/javascript/comparison-logical 
-https://www.programiz.com/javascript/if-else
+## Here are the resources used in today's lesson
+[Programiz](https://www.programiz.com/javascript/comparison-logical)
+[Programiz](https://www.programiz.com/javascript/if-else)
 
-Some extra resources that i personally used when learning these concepts:
-https://www.youtube.com/watch?v=IsG4Xd6LlsM&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax&index=7
-https://www.youtube.com/watch?v=vaZpDYOuprA&list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL&index=8&t=748s
+## Some extra resources that i personally used when learning these concepts:
+[Youtube](https://www.youtube.com/watch?v=IsG4Xd6LlsM&list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax&index=7)
 
-https://youtu.be/ULNJSTSJc7s
+[Youtube](https://www.youtube.com/watch?v=vaZpDYOuprA&list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL&index=8&t=748s)
+
+[Youtube](https://youtu.be/ULNJSTSJc7s)
