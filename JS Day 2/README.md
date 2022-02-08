@@ -26,6 +26,11 @@ console.log("I know you just got a new car buddy but you're still underaged");
 }
 ```
 
+Other Examples-
+- [Odd or Even checker](https://github.com/vatsal-boy/JS-notes/blob/main/JS%20Day%202/EvenOdd.js)
+- [Calculator](https://github.com/vatsal-boy/JS-notes/blob/main/JS%20Day%202/calculator.js)
+- [Largest Number](https://github.com/vatsal-boy/JS-notes/blob/main/JS%20Day%202/LargestNum.js)
+
 ## For Loops
 Loops are used to repeat a block of code.
 
@@ -50,6 +55,10 @@ for (let i = 1; i <= 10; i++) // i++ is short form for i+=1 or i = i+1
 
 Oops we printed Abbas Is Cool 10 times. Guess he is too cool. 
 
+Other Examples-
+- [Finding sum upto 100](https://github.com/vatsal-boy/JS-notes/blob/main/JS%20Day%202/for-sumupto100.js)
+- [Prime Number Checker](https://github.com/vatsal-boy/JS-notes/blob/main/JS%20Day%202/for-primenumber.js)
+
 ## While Loops
 
 While loops are used when we don't know how much iteration we have to perform. The syntax for while loop is-
@@ -73,6 +82,11 @@ while (i <= 5 ) {
 ```
 
 P.S. - We missed do...while loops today.
+
+Other Examples-
+- [Finding sum upto 100](https://github.com/vatsal-boy/JS-notes/blob/main/JS%20Day%202/while-sumupto.js)
+- [Prime Number Checker](https://github.com/vatsal-boy/JS-notes/blob/main/JS%20Day%202/while-primenumbers.js)
+
 
 ## Break Statement
 
