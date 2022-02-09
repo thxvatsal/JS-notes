@@ -29,7 +29,7 @@ const types = ["eat" , "excercise" , 1 , true]; // mixed array
 ```javascript
 const array = ['a' , 'e' , 'i', 'o' , 'u'];
 //             0 ,  1  ,  2 ,  3  ,  4        indices
-//             1 ,  2 ,  3,  4 ,  5           elements
+//             1 ,  2 ,   3,   4,    5        elements
 ```
 
 ## Inbuilt Functions
