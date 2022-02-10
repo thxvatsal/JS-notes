@@ -30,7 +30,7 @@ console.log(message) //run this command to check if it's changed
 
   ```javascript
   let myVeryLongNamedVariable; // another way to declare a variable is to just iniate it and 
-  myVeryLongNamedVariable = "Longest Variable Nmae ever!" // then assign value like this
+  myVeryLongNamedVariable = "Longest Variable Name ever!" // then assign value like this
   ```
 
   - Variables are casesensitive. `apple` and `ApplE` are different variables.
