@@ -433,7 +433,7 @@ const dailyActivities = [ 'eat', 'sleep'];
 console.log(dailyActivities.length); // 2
 ```
 
-## **Resorces**
+## **Resources**
 
 - [Programiz Array](https://www.programiz.com/javascript/array)
 - [Programiz Functions](https://www.programiz.com/javascript/function)
