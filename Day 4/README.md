@@ -1,6 +1,6 @@
 # Hello, Amazing Learners!
 
-Today, we learnt about DOM Manipulation.
+Today, we learnt about DOM Manipulation. And we also built a [Counter-Application](https://github.com/vatsal-boy/JS-notes/tree/main/Day%204/Counter-Application)
 
 ## DOM Manipulation
 
