@@ -1,6 +1,6 @@
 # Hello, Amazing learners!
 
-Today, we learnt about some Math modules which help in felicitating mathematical operations. Also we built a Random Number Generator.
+Today, we learnt about some Math modules which help in felicitating mathematical operations. Also we built a [Random Number Generator](https://github.com/vatsal-boy/JS-notes/tree/main/Day%205/Random-Number-Generator)
 
 ## Math Module
 
@@ -85,3 +85,7 @@ cosnole.log(Math.floor(-10.528)) // logs -11
 console.log(Math.ceil(10.528)) // logs 11
 console.log(Math.ceil(-10.528)) // logs -10
 ```
+
+## **Resources**
+
+- [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#static_methods)
