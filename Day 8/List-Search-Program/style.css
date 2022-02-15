@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4c9596;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 100px 10px 0 10px;
+}
+
+#search {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+#list {
+  list-style: none;
+}
+
+#list li {
+  border: 1px solid #ddd;
+  padding: 12px;
+  background: #f6f6f6;
+  font-family: sans-serif;
+  display: block;
+}
+
+#list li:hover {
+  background: #eee;
+}
