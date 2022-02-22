@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip calculator</title>
+    <!-- <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="calc">
+          <h2>Tip calculator</h2>
+          <form action="">
+            <div>
+              <label for="">Bill:</label>
+              <input type="text" class="bill" placeholder="$" />
+            </div>
+
+            <div>
+              <label for="">Rate service:</label>
+              <select name="" class="rate">
+                <option disabled selected value="0">
+                  --select an option--
+                </option>
+                <option value="0.25">25% - Excellent</option>
+                <option value="0.2">20% - Good</option>
+                <option value="0.15">15% - Fair</option>
+              </select>
+            </div>
+
+            <button type="button" class="btn">Calculate</button>
+            <p class="error">Please enter bill and rate service</p>
+          </form>
+
+          <div class="result">
+            <p class="tip">Tip amount: $0</p>
+            <p class="total">Total amount: $0</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
