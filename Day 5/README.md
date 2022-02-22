@@ -89,3 +89,8 @@ console.log(Math.ceil(-10.528)) // logs -10
 ## **Resources**
 
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#static_methods)
+
+## **Sneak-peek**
+![](https://cdn.discordapp.com/attachments/932386249614958692/945556979349323826/rand-num-gen.gif)
+
+_Image courtesy [@Brisa-Codes](https://github.com/Brisa-Codes)_
