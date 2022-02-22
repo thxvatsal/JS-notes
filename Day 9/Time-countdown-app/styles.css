@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  background: url(images/francesco-ungaro-nlqqldluDBw-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 55px;
+  color: #e7eff8;
+}
+
+#countdown {
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 20px;
+  font-size: 45px;
+  color: #90bdc4;
+  font-weight: 800;
+  border-radius: 5px;
+}
