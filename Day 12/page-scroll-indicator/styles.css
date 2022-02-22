@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap%22);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 
 :root {
   --white: #fff;
@@ -18,122 +18,132 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 15px;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-p {
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-/* start here /
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  background-color: var(--black);
-  color: #fff;
-}
-
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+img {
+  width: 100%;
 }
 
 .container {
-  background: url(images/forest1.gif) center no-repeat;
-  background-size: cover;
-  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.container::after {
-  content: "";
-  position: absolute;
+/* header */
+header {
+  width: 100%;
+  /* background-color: var(--dark-grey); */
+  position: fixed;
   top: 0;
   left: 0;
+  padding: 2rem 0;
+  z-index: 111;
+  transition: all 0.5s;
+}
+
+header.sticky {
+  background-color: var(--grey);
+  border-bottom: 1px solid var(--grey);
+  padding: 1rem 0;
+}
+
+nav {
+  /* height: 7.5rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: var(--color-sec);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  margin: 0 1.5rem;
+}
+
+.nav-list li a {
+  color: var(--white);
+  font-size: 1.3rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header.sticky li a {
+  color: var(--dark-grey);
+}
+
+/* New section style */
+section.header {
   width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 255, 0.3);
+  height: 90vh;
+  background: url(./images/keith-misner-h0Vxgz5tyXA-unsplash.jpg) center no-repeat;
+  background-size: cover;
 }
 
-.game {
-  width: 600px;
-  height: 200px;
-  border-bottom: 3px solid var(--white);
-  margin: auto;
+/* section */
+
+section {
+  padding: 5rem 0;
 }
 
-.hero {
-  width: 20px;
-  height: 50px;
-  position: relative;
-  top: 150px;
-  left: 20px;
-  z-index: 1;
+.box {
+  border: 1px solid var(--grey);
+  padding: 2rem;
 }
 
-.villain {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  top: 115px;
-  left: 450px;
-  z-index: 1;
-  / animation: move 1s infinite linear; /
+h2 {
+  color: var(--color-primary);
+  font-size: 3rem;
 }
 
-.hero-boy {
-  width: 50px;
-  height: 50px;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.villain-wolf {
-  width: 50px;
+.flex > * {
+  margin: 5px;
 }
 
-/ animation */
-
-.animate {
-  animation: jump 0.3s linear;
-}
-
-@keyframes jump {
-  0% {
-    top: 150px;
-  }
-  30% {
-    top: 100px;
-    transform: rotate(45deg);
-  }
-
-  50% {
-    top: 60px;
-    transform: rotate(90deg);
-  }
-
-  75% {
-    top: 100px;
-    transform: rotate(180deg);
-  }
-
-  100% {
-    top: 150px;
-    transform: rotate(360deg);
+@media screen and (max-width: 600px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
   }
 }
 
-@keyframes move {
-  0% {
-    left: 480px;
-  }
-  100% {
-    left: -20px;
-  }
+/* scroll-indicator */
+
+.scroll-indicator {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+.progress {
+  width: 0%;
+  height: 3px;
+  background: var(--color-sec);
 }
