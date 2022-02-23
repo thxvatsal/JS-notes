@@ -44,7 +44,7 @@ img {
   padding: 0 20px;
 }
 
-/ start here /
+/* start here */
 
 section {
   width: 100%;
@@ -57,7 +57,7 @@ section {
 }
 
 .add-item {
-  / background-color: var(--color-primary); */
+  /* background-color: var(--color-primary); */
 
   background: rgba(255, 255, 255, 0.2);
 
